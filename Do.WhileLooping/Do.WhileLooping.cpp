@@ -13,6 +13,15 @@ int main()
 
     cout << "nilai x awal : " << x << endl;
 
+    do
+    {
+        cout << "perulangan do..while" << endl;
+        x = rand() % 10;
+
+
+        cout << "nilai x : " << x << endl;
+    } while (x > 4);
+
     
 }
 
